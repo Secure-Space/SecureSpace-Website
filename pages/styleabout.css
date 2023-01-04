@@ -1,136 +1,157 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: Ubuntu;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Ubuntu;
+  box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
-    transition: .8s;
+html {
+  scroll-behavior: smooth;
+  transition: 0.8s;
 }
 
 /* CSS header style starts here */
-.header{
-    height: 100vh;
-    width: 100%;
-    background-color: #141414;
-    background-size: cover;
-    background-position: center;
+.header {
+  height: 100vh;
+  width: 100%;
+  background-color: #141414;
+  background-size: cover;
+  background-position: center;
 }
 
-nav{
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    height:100px;
-    border-bottom-left-radius: 50px;
-    align-items: flex-end;
-    justify-content: end;
-    
-    
+nav {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  border-bottom-left-radius: 50px;
+  align-items: flex-end;
+  justify-content: end;
 }
 
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding-bottom: 36px;
-    padding-right: 18px;
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-bottom: 36px;
+  padding-right: 18px;
+}
+nav ul li a {
+  color: #ffbd59;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 1px 1px;
+  padding: 9px 9px;
+}
+nav ul li a:hover {
+  border: 2px solid #ffbd59;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.body {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.hometext {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 28px;
+  line-height: 43px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: black;
+  align-items: center;
+  height: 270px;
+  width: 240px;
+  border-radius: 30px;
+  margin-top: 60px;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: black;
+  align-items: center;
+  height: 270px;
+  width: 240px;
+  border-radius: 30px;
+  margin-left: 500px;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: black;
+  align-items: center;
+  height: 270px;
+  width: 240px;
+  border-radius: 30px;
+  margin-left: 240px;
+  margin-top: 340px;
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: black;
+  align-items: center;
+  height: 270px;
+  width: 240px;
+  border-radius: 30px;
+  margin-left: 720px;
+  margin-top: 340px;
+}
+.teambox {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 1020px;
+  height: 81%;
+  width: 350px;
+  border-radius: 30px;
+}
+.buttonbox {
+  display: flex;
+  flex-direction: row;
+}
+.contbutton {
+  height: 40px;
+  width: 40px;
 
+  /* color: white; */
 }
-nav ul li a{
-    color: #FFBD59;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 1px 1px;
-    padding: 9px 9px;
-
+.line0 {
+  position: absolute;
+  margin-top: 330px;
+  margin-left: 110px;
+  width: 200px;
+  height: 140px;
+  border: solid 2px #ffbd59;
+  border-color: transparent transparent #ffbd59 #ffbd59;
+  border-radius: 0px 0px 0px 90px;
 }
-nav ul li a:hover{
-    border: 2px solid #FFBD59;
-    transition: .3s;
-    cursor: pointer;
-    border-radius: 50px;
-    
+.line1 {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 360px;
+  width: 140px;
+  height: 200px;
+  border: solid 2px #ffbd59;
+  border-color: #ffbd59 transparent transparent #ffbd59;
+  border-radius: 90px 0px 0px 0px;
 }
-.body{
-    margin-top: 30px;
-    margin-left: 50px;
-}
-.hometext{
-    display: flex;
-    flex-direction: column;
-    width:50%;
-    font-size: 28px;
-    line-height: 43px;
-}
-.box{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: black;
-    align-items: center;
-    height: 270px;
-    width: 240px;
-    border-radius: 30px;
-    margin-top: 60px;
-}
-.box1{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: black;
-    align-items: center;
-    height: 270px;
-    width: 240px;
-    border-radius: 30px;
-    margin-left: 500px;
-}
-.box2{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: black;
-    align-items: center;
-    height: 270px;
-    width: 240px;
-    border-radius: 30px;
-    margin-left: 240px;
-    margin-top: 340px;
-}
-.box3{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: black;
-    align-items: center;
-    height: 270px;
-    width: 240px;
-    border-radius: 30px;
-    margin-left: 720px;
-    margin-top: 340px;
-}
-.teambox{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin-left: 1020px;
-    height:81%;
-    width:350px;
-    border-radius: 30px;
-
-}
-.buttonbox{
-    display: flex;
-    flex-direction: row;
-    
-    
-}
-.contbutton{
-    color: black;
-    background-color: white;
-    height: 40px;
-    width: 40px;
-    /* color: white; */
+.line2 {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 740px;
+  width: 110px;
+  height: 220px;
+  border: solid 2px #ffbd59;
+  border-color: #ffbd59 #ffbd59 transparent transparent;
+  border-radius: 0px 90px 0px 0px;
 }
