@@ -42,7 +42,8 @@ nav ul li a{
     color: #FFBD59;
     text-decoration: none;
     font-size: 20px;
-    padding: 20px 20px;
+    margin: 1px 1px;
+    padding: 9px 9px;
 
 }
 nav ul li a:hover{
@@ -50,6 +51,7 @@ nav ul li a:hover{
     transition: .3s;
     cursor: pointer;
     border-radius: 50px;
+    
 }
 .body{
     margin-top: 30px;

@@ -6,13 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/font-awesome.min.css"> -->
 
-    <link rel="stylesheet" type="text/css" href="styleabout.css" />
+    <link rel="stylesheet" type="text/css" href="stylecontact.css" />
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
   <body>
     <div class="header">
@@ -28,7 +25,36 @@
       <div class="body">
         <div class="hometext">
 
-          <p style="font-size: 48px;  color: #FFBD59;">Contact Us<br></p>
+          <p style="font-size: 48px;  color: #FFBD59;">Contact Us Now<br></p>
+          <div class = "infield">
+            <div style=" display:flex; flex-direction: column;">
+            <form>
+              <label for="fname" style="color:#FFBD59; font-size: 20px;">First Name*</label><br>
+              <input type="text" id="fname" name="fname" placeholder="Enter you first name" class="inbox"><br>
+              <label for="lname" style="color:#FFBD59; font-size: 20px;">Last Name*</label><br>
+              <input type="text" id="lname" name="lname" placeholder="Enter your last name" class="inbox"><br>
+              <label for="pnum" style="color:#FFBD59; font-size: 20px;">Phone Number</label><br>
+              <input type="tel" id="pnum" name="pnum" placeholder="Enter your phone number" class="inbox"><br>
+              <label for="email" style="color:#FFBD59; font-size: 20px;">Email Address*</label><br>
+              <input type="email" id="email" name="email" placeholder="Enter your email address" class="inbox"><br>
+
+              <input type="checkbox" id="priv" name="priv" value="" >
+              <label for="priv"  style="font-size:13px; ">I accept the privacy policy and the terms and condition of use</label><br>
+              <input type="checkbox" id="news" name="news" value="">
+              <label for="news" style="font-size:13px;">I want to receive commercial information to my email.</label><br>
+
+              <p style="font-size:15px; opacity:60%;">* - Required</p>
+
+
+            </form>
+          </div>
+          <div class="commentbox">
+            <label for="comments" style="color:#FFBD59; font-size: 20px;">Your Comments</label><br>
+              <input type="text" id="fname" name="fname" placeholder="Please provide us with your feedback" class="comment"><br>
+            <button class="contb">Continue ></button>
+              
+          </div>
+          </div>
          
           
         </div>

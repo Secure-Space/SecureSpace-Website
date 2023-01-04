@@ -42,7 +42,8 @@ nav ul li a{
     color: #FFBD59;
     text-decoration: none;
     font-size: 20px;
-    padding: 20px 20px;
+    margin: 1px 1px;
+    padding: 9px 9px;
 
 }
 nav ul li a:hover{
@@ -50,6 +51,7 @@ nav ul li a:hover{
     transition: .3s;
     cursor: pointer;
     border-radius: 50px;
+    
 }
 .body{
     margin-top: 30px;
@@ -73,59 +75,38 @@ nav ul li a:hover{
     border-radius: 30px;
     margin-top: 60px;
 }
-.box1{
+.infield{
     display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: black;
-    align-items: center;
-    height: 270px;
-    width: 240px;
-    border-radius: 30px;
-    margin-left: 500px;
-}
-.box2{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: black;
-    align-items: center;
-    height: 270px;
-    width: 240px;
-    border-radius: 30px;
-    margin-left: 240px;
-    margin-top: 340px;
-}
-.box3{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: black;
-    align-items: center;
-    height: 270px;
-    width: 240px;
-    border-radius: 30px;
-    margin-left: 720px;
-    margin-top: 340px;
-}
-.teambox{
-    background-color: black;
-    display: flex;
-    position: absolute;
-    margin-left: 1020px;
-    height:81%;
-    width:350px;
-    border-radius: 30px;
-
-}
-.buttonbox{
-    display: flex;
+    padding-top: 30px;
     flex-direction: row;
-    
+}
+.commentbox{
+    margin-left: 150px;
+}
+.inbox{
+    background-color: white;
+    height: 40px;
+    width: 400px;
+    border-radius: 8px;
+    color: black;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.comment{
+    background-color: white;
+    height:360px;
+    width: 780px;
+    border-radius: 8px;
+    color: black;
     
 }
-.contbutton{
-    height: 40px;
-    width: 40px;
-    color: white;
+.contb{
+    margin-top: 15px;
+    width:140px;
+    height: 45px;
+    background-color: #141414;
+    color: #FFBD59;
+    border-radius: 15px;
+    border-color: #FFBD59;
+    font-size: 20px;
 }

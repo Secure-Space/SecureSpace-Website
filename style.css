@@ -42,7 +42,8 @@ nav ul li a{
     color: #FFBD59;
     text-decoration: none;
     font-size: 20px;
-    padding: 20px 20px;
+    margin: 1px 1px;
+    padding: 9px 9px;
 
 }
 nav ul li a:hover{
@@ -50,6 +51,7 @@ nav ul li a:hover{
     transition: .3s;
     cursor: pointer;
     border-radius: 50px;
+    
 }
 .body{
     margin-top: 170px;
@@ -61,4 +63,14 @@ nav ul li a:hover{
     width:50%;
     font-size: 28px;
     line-height: 43px;
+}
+.morebut{
+    margin-top: 15px;
+    width:140px;
+    height: 45px;
+    background-color: #141414;
+    color: #FFBD59;
+    border-radius: 15px;
+    border-color: #FFBD59;
+    font-size: 20px;
 }
