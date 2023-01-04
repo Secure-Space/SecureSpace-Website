@@ -111,6 +111,7 @@ nav ul li a:hover{
 .teambox{
     background-color: black;
     display: flex;
+    flex-direction: column;
     position: absolute;
     margin-left: 1020px;
     height:81%;
