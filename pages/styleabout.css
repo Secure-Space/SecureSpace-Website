@@ -116,12 +116,18 @@ nav ul li a:hover {
   border-radius: 30px;
 }
 .buttonbox {
+    margin-top: 10px;
   display: flex;
   flex-direction: row;
+  width: 90%;
+  justify-content: space-around;
 }
 .contbutton {
   height: 40px;
   width: 40px;
+  background-color: transparent;
+  border: transparent;
+  font-size: 25px;
 
   /* color: white; */
 }
