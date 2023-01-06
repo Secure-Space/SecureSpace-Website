@@ -57,6 +57,11 @@ nav ul li a:hover{
     margin-top: 30px;
     margin-left: 50px;
 }
+.logocontain{
+    width: 10%;
+    height: 100%;
+    margin-right: 800px;
+}
 .hometext{
     display: flex;
     flex-direction: column;

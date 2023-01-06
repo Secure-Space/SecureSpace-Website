@@ -18,7 +18,11 @@ html{
     background-size: cover;
     background-position: center;
 }
-
+.logocontain{
+    width: 10%;
+    height: 100%;
+    margin-right: 800px;
+}
 nav{
     background-color: black;
     display: flex;

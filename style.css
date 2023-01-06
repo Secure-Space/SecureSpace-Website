@@ -18,6 +18,11 @@ html{
     background-size: cover;
     background-position: center;
 }
+.logocontain{
+    width: 10%;
+    height: 100%;
+    margin-right: 800px;
+}
 
 nav{
     background-color: black;
@@ -54,7 +59,9 @@ nav ul li a:hover{
     
 }
 .body{
-    margin-top: 170px;
+    display: flex;
+    flex-direction: row;
+    
     margin-left: 50px;
 }
 .hometext{
@@ -62,6 +69,7 @@ nav ul li a:hover{
     flex-direction: column;
     width:50%;
     font-size: 28px;
+    margin-top: 170px;
     line-height: 43px;
 }
 .morebut{
@@ -74,3 +82,4 @@ nav ul li a:hover{
     border-color: #FFBD59;
     font-size: 20px;
 }
+
