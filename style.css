@@ -19,9 +19,10 @@ html{
     background-position: center;
 }
 .logocontain{
-    width: 10%;
+    width: 13%;
     height: 90%;
-    margin-right: 820px;
+    margin-right: 770px;
+    margin-bottom: 5px;
 }
 
 nav{
@@ -47,7 +48,6 @@ nav ul li a{
     color: #FFBD59;
     text-decoration: none;
     font-size: 20px;
-    margin: 1px 1px;
     padding: 9px 9px;
 
 }
